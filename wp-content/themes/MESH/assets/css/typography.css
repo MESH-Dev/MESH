@@ -1,0 +1,74 @@
+/* =========
+	Fonts
+============ */
+.memphisLight{font-family:'Memphis LT W01 Light';}
+.memphisLightItalic{font-family:'MemphisLTW01-LightItali';}
+.memphisMedium{font-family:'Memphis LT W01 Medium';}
+.memphisMediumItalic{font-family:'MemphisLTW01-MediumItal';}
+.memphisBold{font-family:'Memphis LT W01 Bold';}
+.memphisBoldItalic{font-family:'MemphisLTW01-BoldItalic';}
+.memphisExtraBold{font-family:'MemphisLTW01-ExtraBold';}
+
+
+/* =========
+	Headings
+============ */
+h1,h2,h3,h4,h5,h6{}
+
+h1{font:28px/36px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+	#approach #approach-threeCol .onethird h1{font:28px/36px 'Memphis LT W01 Bold';}
+	.service-wrap h1{font:28px/36px 'Memphis LT W01 Bold';border-bottom: 5px solid #000;padding: 0 0 2px 0;}
+		.service-wrap .service-entry h1{width:275px;padding:0 0 2px 5px;margin:0 0 8px;}
+		.service-wrap .service-entry.first h1{width:279px;padding:0 0 2px 0;}
+		.service-wrap .service-entry.last h1{padding:0 0 2px 6px;}
+h2{font:24px/32px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+	.blog-entry h2, #blogroll #contentPrimary h2, #blogroll #contentTertiary h2 {font: 18px/22px 'Memphis LT W01 Medium';margin:0;}
+		#blogroll #contentTertiary h2{line-height:14px;margin:0 0 18px;}
+h3{font:20px/28px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+h4{font:16px/24px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+h5{font:12px/20px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+h6{font:8px/16px 'MemphisLTW01-BoldItalic';margin:0 0 .55em;}
+
+
+/* =========
+	Paragraph
+============ */
+body{font:13px/17px 'Raleway',Helvetica,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+p{margin:0 0 1.5em;}
+	div.work-post-intro-extra p {margin: 0 0 1px 0;line-height: 15px;}
+
+strong{font-family:'Memphis LT W01 Bold';}
+	em > strong{font-family:'MemphisLTW01-BoldItalic';}
+em{font-family:'MemphisLTW01-MediumItal';}
+	strong > em{font-family:'MemphisLTW01-BoldItalic';}
+
+#adv-mason .adv-entry .adv-entry-message{font:28px/36px 'MemphisLTW01-BoldItalic';}
+#adv-mason .adv-entry .adv-entry-advocate{font:18px/24px 'Memphis LT W01 Medium';}
+
+#approach #approach-intro, #services #services-intro{font: 36px/42px 'Memphis LT W01 Light';word-spacing: 0.03em;width: 100%;float: left;margin:0 0 65px 0;}
+
+
+/* =========
+	Links
+============ */
+a{text-decoration:none;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+	p a{font-family:'MemphisLTW01-BoldItalic';color:#66cfb9;}
+	header #social a:hover, #blogroll a:hover{opacity:0.75;}
+	a:visited{}
+
+.blog-entry a{color:#000;}
+
+
+/* =========
+	Lists
+============ */
+ul{margin:0 0 0 15px;list-style: disc;}
+	ul li{}
+ol{margin:0 0 0 15px;list-style: decimal;}
+	ol li{}
+li{}
+
+
+/* =========
+	Misc
+============ */

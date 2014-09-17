@@ -1,0 +1,348 @@
+/* =========
+	Common
+============ */
+html,body{width:100%;height:100%;color:#000;}
+.container{width:1420px;margin:0 auto;}
+#mti_wfs_colophon{display:none !important;}
+img{max-width:100%;height:auto;}
+
+.onethird{width:33%;}
+.onehalf{width:50%;}
+.floatleft{float:left;}
+
+#approach.fo-oh-fo > .container{background: url(../img/404.jpg) 81% 0% no-repeat;background-size: 24%;}
+
+/* =========
+	Header
+============ */
+header{width:100%;border-top:14px solid #000;margin:0 0 45px;}
+	header .gutter {padding:19px 162px 0 239px;}
+
+	header #logo{float:left;}
+
+
+	header nav#mainNav{float:left;}
+		header nav#mainNav ul{list-style: none;margin: 18px 0px 0px 77px;width:622px;}
+		header nav#mainNav ul li{float: left;width: 138px;margin: 0 104px 9px 0px;}
+			header nav#mainNav ul li.nomargin{margin:0 0 9px;}
+		header nav#mainNav ul li a{display: block;width:132px;border-bottom: 4px solid #000;height:20px;font:16px/16px 'Memphis LT W01 Medium';color:#000;text-decoration:none;padding:4px 0px 0px 6px;}
+			header nav#mainNav ul li.current-menu-item a, header nav#mainNav ul li:hover a{background:#000;color:#fff;}
+
+
+	header nav#social{float:right;margin:-7px 0 0 0;}
+		header nav#social ul{float: right;margin: 0;list-style: none;}
+		header nav#social ul li{display:block;height:23px;width:19px;text-decoration:none;text-indent:-9999px;float:left;padding:0 1px 0 0;}
+		header nav#social ul li a{background:url(../img/socialIcons.png) 0 0 no-repeat;height:100%;width:100%;display:block;}
+			header nav#social ul li.facebook a{background-position:0 0;}
+			header nav#social ul li.tumblr a{background-position:-22px 0;}
+			header nav#social ul li.instagram a{background-position:-43px 0;}
+			header nav#social ul li.twitter a{background-position:-64px 0;}
+			header nav#social ul li.google a{background-position:-85px 0;}
+
+	#sayHello{width:100%;height:92px;background:#000; color:#fff;position:relative;margin:-92px 0 0;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+		#sayHello.active{margin:0;}
+		#sayHello .container{height:92px;position:relative;}
+		#sayHello .gutter{padding:17px 230px 0px 459px;}
+		#sayHello-caret{height: 16px;width: 16px;background: url(../img/sayHello.png) no-repeat;position: absolute;right: 483px;bottom:0px;display: block;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+			.active #sayHello-caret{bottom:-30px;}
+
+		#sayHello .onethird{}
+			#sayHello .onethird .gutter{padding:0 0;}
+		#sayHello .onethird.first{}
+			#sayHello .onethird.first .gutter{padding:0 0;}
+		#sayHello .onethird .last{}
+			#sayHello .onethird.last .gutter{padding:21px 0 0 0;}
+		#sayHello a{color:#fff;font-family:'MemphisLTW01-BoldItalic';transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+			#sayHello a:hover{opacity:0.5;}
+
+
+/* =========
+	Home
+============ */
+body.home{background:#FDF2EC;background:url(../img/homeBG.gif) center top no-repeat #e0e0e0;background-size:cover;}
+section#home{}
+	section#home .container{/*height:1136px;*/}
+
+
+/* =========
+	Default Page
+============ */
+#page-content{}
+	#page-content .container{width:940px;}
+	#page-content .container > .gutter{padding:20px;}
+
+
+
+/* =========
+	Work
+============ */
+#works-filter{height:21px;width:100%;background:#ededf0;margin:0 0 21px;}
+	body.post-type-archive-work #works-filter{margin:0;}
+	#works-filter .gutter {padding: 0 220px 0 240px;}
+	#works-filter #complete-works{text-decoration:none;background:#72dbc5;height:21px;float:left;color:#fff;text-transform: uppercase;line-height: 22px;padding: 0 11px;}
+	#works-filter #other-works{text-decoration:none;background:#72dbc5;height:21px;float:right;color:#fff;text-transform: uppercase;line-height: 22px;padding: 0 11px;}
+
+	ul#filters{float:left;margin:0;list-style:none;color:#979797;}
+		ul#filters li{float: left;padding: 0 21px;line-height: 21px;}
+		ul#filters li:hover{cursor:pointer;background:#72dbc5;color:#fff;}
+		ul#filters li.active{background:#72dbc5;color:#fff;}
+
+#works-archive{background:#ededf0;width:100%;float:left;}
+	#works-archive .container{width:940px;}
+	#works-archive .gutter {padding: 50px 0 20px;}
+	#works-archive .works-archive-entry{float:left;width:50%;font-family:'Memphis LT W01 Medium';font-size:18px;}
+	#works-archive .works-archive-entry a{color:#15000f;text-decoration:none;}
+
+
+#works.featured{}
+	#works.featured .container{width:1435px;}
+#works .work-entry{transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;-webkit-transform:scale(1);opacity:1;display:block;}
+	#works .work-entry.hide{-webkit-transform:scale(0);opacity:0;height:0;width:0;margin:0;}
+
+.work-entry{float:left;height:171px;width:460px;position:relative;overflow:hidden;margin:0 9px 20px;color:#fff;background:#000;}
+	.work-entry .work-entry-img{width:50%;height:100%;}
+		.work-entry.left .work-entry-img{float:right;}
+		.work-entry.right .work-entry-img{float:left;}
+
+	.work-entry .work-entry-data{width:100%;height:100%;position:absolute;top:0;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+		.work-entry.left .work-entry-data{left:-50%;}
+		.work-entry.right .work-entry-data{right:-50%;}
+		.work-entry.left:hover .work-entry-data{left:0;}
+		.work-entry.right:hover .work-entry-data{right:0;}
+
+		.work-entry .work-entry-data-vis{width:50%;}
+			.work-entry.left .work-entry-data-vis{float:right;}
+			.work-entry.right .work-entry-data-vis{float:left;}
+			div.work-entry-data-vis .gutter {padding:25px 30px 25px 19px;}
+
+		.work-entry .work-entry-data-add{width:50%;}
+			.work-entry.left .work-entry-data-add{float:left;}
+			.work-entry.right .work-entry-data-add{float:right;}
+			.work-entry .work-entry-data-add .gutter {padding: 75px 20px 20px;}
+
+	span.work-entry-title{font:18px/23px 'Memphis LT W01 Medium';height: 51px;width: 100%;float: left;border-bottom: 6px solid #fff;margin:0 0 7px 0;}
+	span.work-entry-medium{font-size: 11px;text-transform: uppercase;line-height: 13px;}
+
+
+#works.archive{}
+	#works.archive .container{}
+	#works.archive .container > .gutter{padding:42px 240px;}
+	#works.archive .container > .workcf{padding:10px 150px;}
+
+	.work-post{}
+		.work-post.grey{background:#f5f5f5;}
+	.work-post-intro{float:left;width:100%; margin:0 0 20px 0;}
+		.work-post-intro .work-entry-data{float:left;width: 460px;height: 170px;color:#fff;}
+
+			.work-post-intro .work-entry-data-vis{float:left;width:50%;}
+				.work-post-intro .work-entry-data-vis .gutter{padding:25px 29px 20px 20px;}
+				.work-post-intro .work-entry-data span.work-entry-title{}
+			.work-post-intro .work-entry-data-add{float:left;width:50%;}
+				.work-post-intro .work-entry-data-add .gutter{padding:70px 11px 20px 30px;}
+
+		.work-post-intro .work-post-intro-extra{float:right;width:50%;}
+			div.work-post-intro-extra .gutter {padding: 0 0 0 10px;}
+
+	.work-post-showcase{float:left;width:100%;display:block;margin:0 0 13px;}
+		.work-post-showcase img{float:left;width:100%;height:auto;margin:0 0 17px;}
+
+	.work-process-data{float:left;width:100%;display:none;}
+		.work-process-data-vis{float: left;width: 460px;color: #fff;height: 170px;}
+			.work-process-data-vis .gutter{padding: 25px 29px 20px 20px;}
+		.work-process-title{font: 18px/23px 'Memphis LT W01 Medium';height: 29px;width: 181px;float: left;border-bottom: 6px solid #fff;margin: 0 0 20px 0;}
+		.work-process-intro-extra{float:right;width:50%;}
+			.work-process-intro-extra .gutter{padding:0px 0px 14px 10px;}
+		.work-process-intro-extra h2 {margin: 0 0 27px;}
+
+
+
+	.work-entry-process{float:left;width:100%;display:block;}
+		.work-entry-process .work-entry-process-collage{float: left;width: 460px;}
+		.work-entry-process .work-entry-process-sketch{float:right;width:460px;}
+			.work-entry-process-sketch img {margin: 0 0 15px;}
+
+		.work-entry-process-sketch.fullwidth{width:100%;float:left;display:block;}
+			.work-entry-process-sketch.fullwidth .process-image{width:460px;display:block;}
+			.work-entry-process-sketch.fullwidth .process-image.right{float:right;}
+			.work-entry-process-sketch.fullwidth .process-image.left{float:left;}
+
+
+/* =========
+	People
+============ */
+#people{margin: 42px 0 0;float: left;width: 100%;}
+	#people #contentPrimary{float:right;width:460px;}
+	#people #contentSecondary{float:left;width:960px;}
+
+	.people-entry{float:left;height:171px;width:460px;position:relative;overflow:hidden;margin:0 0 20px;color:#fff;background:#000;}
+		.people-entry:hover{cursor:pointer;}
+		.people-entry .people-entry-img{width:50%;height:100%;position:relative;}
+			.people-entry.left .people-entry-img{float:right;}
+			.people-entry.right .people-entry-img{float:left;}
+
+		.people-entry .people-entry-data{width:100%;height:100%;position:absolute;top:0;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+			.people-entry.left .people-entry-data{left:-50%;}
+			.people-entry.right .people-entry-data{right:-50%;}
+			.people-entry.left:hover .people-entry-data{left:0;}
+			.people-entry.right:hover .people-entry-data{right:0;}
+
+			.people-entry .people-entry-data-vis{width:50%;}
+				.people-entry.left .people-entry-data-vis{float:right;}
+				.people-entry.right .people-entry-data-vis{float:left;}
+				div.people-entry-data-vis .gutter {padding:23px 30px 25px 19px;}
+
+			.people-entry .people-entry-data-add{width:50%;}
+				.people-entry.left .people-entry-data-add{float:left;}
+				.people-entry.right .people-entry-data-add{float:right;}
+				.people-entry .people-entry-data-add .gutter {padding: 49px 20px 20px;}
+				.people-entry-pos{text-transform:uppercase;float:left;width:100%;margin:0 0 17px 0;}
+				.people-entry-statement{float:left;width:100%;}
+				.people-entry-posit{text-transform:uppercase; font-size: 11px;}
+				 .people-entry-content{display: none;}
+
+			.people-entry-img-active{display:none;position:absolute;top:0;left:0;height:100%;width:100%;}
+
+		span.people-entry-title{font:18px/28px 'Memphis LT W01 Medium';height:auto;width: 100%;float: left;border-bottom: 6px solid #fff;margin:0 0 7px 0;}
+		span.people-entry-medium{font-size: 10px;text-transform: uppercase;line-height: 13px;}
+
+
+	.people-entry.active {width: 938px;height: 362px;float: left;}
+		.people-entry.active .people-entry-img-active{display:block;}
+		.people-entry.active.left:hover .people-entry-data{left:-50%;}
+		.people-entry.active.right:hover .people-entry-data{right:-50%;}
+		.people-entry.active .people-entry-posit, .people-entry.active .people-entry-content{display:block;float:left;width:100%;clear:both;}
+		.people-entry.active .people-entry-posit{text-transform:uppercase;margin:0 0 17px;}
+		.people-entry.active span.people-entry-title{width:182px;clear:both;margin:0 0 8px;}
+
+
+
+/* =========
+	Services
+============ */
+#services{}
+	#services .container{}
+	#services .container > .gutter{padding:35px 242px 35px 239px;}
+
+	#services-threeCol{float:left;width:100%;}
+		.service-wrap{float:left;width:100%;margin:0 0 20px 0;height:100%;position:relative;display:table;}
+
+	#services-threeCol .service-entry{width: 290px;margin:0 30px 0 0;height:100%;position:relative;display:inline-block;vertical-align:top;padding:0 0 48px;}
+		#services-threeCol .service-entry.first{width: 300px;margin: 0 15px 0 0;}
+		#services-threeCol .service-entry.last{width: 304px;margin:0;}
+
+	#services-threeCol .service-entry .gutter{padding:0 0 0 5px;}
+		#services-threeCol .service-entry.first .gutter{padding:0 0;}
+		#services-threeCol .service-entry.last .gutter{padding:0 0 0 5px;}
+
+	.services-seemore{position:absolute;bottom:0;left:5px;}
+		.service-entry.first .services-seemore{left:0;}
+		.service-entry.last .services-seemore{left:6px;}
+
+
+
+/* =========
+	Approach
+============ */
+#approach{}
+	#approach .container{}
+	#approach .container > .gutter{padding:35px 242px 35px 239px;}
+
+	#approach #approach-threeCol{}
+		#approach #approach-threeCol .onethird{}
+		#approach #approach-threeCol .onethird .gutter{padding:0 2px 0 10px;}
+			#approach #approach-threeCol .onethird.first .gutter{padding:0 30px 0 0;}
+			#approach #approach-threeCol .onethird.last .gutter{padding:0 0px 0 22px;}
+
+
+
+/* =========
+	Advocates
+============ */
+#advocates{}
+	#advocates .container{}
+	#advocates .container > .gutter{}
+
+	#adv-mason{}
+		#adv-mason .adv-entry{margin:0 0 10px 0;color:#fff;}
+			.adv-entry.masn-one{width:226px;}
+			.adv-entry.masn-two{width:462px;}
+			.adv-entry.masn-three{width:698px;}
+			.adv-entry.masn-four{width:934px;}
+			.adv-entry.masn-five{width:1170px;}
+			.adv-entry.masn-six{width:1470px;}
+		#adv-mason .adv-entry .gutter{padding:26px 52px;}
+		#adv-mason .adv-entry .adv-entry-message{margin:0 0 15px;width:100%;float:left;}
+		#adv-mason .adv-entry .adv-entry-advcoate{width:100%;float:left;}
+
+
+
+/* =========
+	Blog
+============ */
+section#blogroll{margin: 42px 0 0;float: left;width: 100%;}
+	section#blogroll #contentSecondary{float:right;width: 940px;margin: 0 240px 0 0;}
+		section#blogroll .blog-entry{width:460px;float:left;margin:0 0 20px;position:relative;}
+			section#blogroll.single .blog-entry{width:100%;}
+			.blog-entry .social-badge{position:absolute;top:5px;left:6px;}
+
+			.post-tumblr-wrap,.post-wp-feature,.post-instagram-feature,.post-tumblr-feature{margin:0 0 10px;}
+				#blogroll.single .post-tumblr-wrap,#blogroll.single .post-wp-feature,#blogroll.single .post-instagram-feature,#blogroll.single .post-tumblr-feature{margin:0 0 6px;}
+				.readmore,.followus{font:12px/15px 'MemphisLTW01-BoldItalic';margin:0 0 19px;}
+					.followus a{color:#000;}
+			.single-post-date,.post-instagram-date,.post-tumblr-date,.post-wp-date{font-size:10px;}
+			.readmore {margin: 0 0 19px 0;display: block;}
+
+			.post-wp-feature{position:relative;}
+				.blog-entry .post-wp-feature a{position:absolute;top: 27px;left: 12px;color:#fff;border-bottom: 6px solid #fedf00;padding: 0 0 4px 0;width:180px;}
+
+			.post-tumblr-wrap{float:left;width:100%;display:block;background:#fedf00;display:table;vertical-align:middle;height:120px;text-align:center;}
+				.post-tumblr-wrap blockquote{height:100%;width:100%;vertical-align:middle;display:table-row;}
+					.post-tumblr-wrap blockquote a{vertical-align:middle;display:table-cell;height:100%;width:100%;font:18px/22px 'Memphis LT W01 Medium';}
+						#blogroll.single .post-tumblr-wrap blockquote a{font-size:14px;line-height:18px;}
+				.post-tumblr-wrap iframe{max-width:100%;}
+
+			.post-wp-tags,.single-post-tags{}
+				.post-wp-tags a,.single-post-tags a{background: #fedf00;color: #000;margin: 5px 4px 0 0;padding: 0px 6px;text-transform: uppercase;font-size: 10px;float: left;}
+
+
+	section#blogroll #contentPrimary {float: left;width: 220px;background:#fedf00;position:relative;}
+		#blogroll #contentPrimary .gutter {padding:26px 20px;}
+		#blogroll #contentPrimary ul{list-style:none;margin:0;padding:0;}
+			ul#reading-list{margin: 0 0 18px 0 !important;display: block;}
+			ul#reading-list li{}
+			ul#reading-list li a{color:#000;}
+
+			ul#blog-tax{}
+			ul#blog-tax li{font: 18px/22px 'Memphis LT W01 Medium';margin:0 0 5px;}
+			ul#blog-tax li a{color:#000;}
+
+			#rssUrl{background:url(../img/rssIcon.png) no-repeat;height:29px;width:31px;position:absolute;bottom:-29px;;left:0;}
+				#rssUrl > a{display:block;height:100%;width:100%;text-indent:-9999px;}
+
+	/* Single */
+	section#blogroll.single{}
+		section#blogroll.single #contentSecondary{float:left;width:720px;margin:0 0 20px;}
+			section#blogroll.single #contentSecondary > .gutter{padding:0 0 0 19px;}
+
+		section#blogroll.single #contentTertiary{float:left;width:259px;}
+			section#blogroll.single #contentTertiary > .gutter{padding:0 0 0 19px;}
+
+	section#blogroll table{width:100%;margin:20px 0;display:inline-block;}
+		section#blogroll table thead{font-weight:bold;font-size:12px;}
+		section#blogroll table tbody{}
+		section#blogroll table tfoot{}
+		section#blogroll table tr{}
+		section#blogroll table td{padding:10px;}
+
+		section#blogroll #contentSecondary ul, section#blogroll #contentSecondary ol{padding:0 0 15px;margin:10px 0 10px 15px;}
+		section#blogroll #contentSecondary blockquote{font: 18px/22px 'Memphis LT W01 Medium';width: 90%;margin:10px auto;}
+		section#blogroll #contentSecondary address{font-style:italic;}
+
+
+
+
+
+/* ==========
+	Mobile
+=========== */
+.mobile{display:none;}

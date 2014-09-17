@@ -1,0 +1,16 @@
+/*
+Theme Name: MESH Design & Development
+Theme URI: http://meshfresh.com
+Author: MESH Design & Development
+Author URI: http://meshfresh.com
+Description: Cooking up something good
+Version: 0.1
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+@import url(assets/css/reset.css);
+@import url(assets/css/typography.css);
+@import url(assets/css/layout.css);
+@import url(assets/css/responsive.css);
+
+/*@import url(assets/css/meshfresh.css);*/

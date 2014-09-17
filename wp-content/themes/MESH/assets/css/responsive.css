@@ -1,0 +1,414 @@
+/* Mobile */
+@media only screen and (max-width: 560px) {
+	.sayhello{display:none;}
+	/* Common */
+	.container{width:100% !important;}
+	.mobile{display:block;}
+	.onethird{width:100%;}
+
+
+	/* Typography */
+	#approach #approach-intro, #services #services-intro{font: 26px/32px 'Memphis LT W01 Light';}
+
+	/* Mobile Menu */
+	#scrollControl{height:100%;width:100%;float:left;overflow:hidden;}
+
+	#mobileMenu{width:60%;background:#fff;position:fixed;height:100%;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;-webkit-transform: translateX(-100%);-moz-transform: translateX(-100%);transform: translateX(-100%);-ms-transform: translateX(-100%);-o-transform: translateX(-100%);}
+		#mobileMenu .gutter{padding:20px;}
+	#siteWrap{transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+
+
+	#mobileMenu.active{position:fixed;-webkit-transform: translateX(0);-moz-transform: translateX(0);transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);}
+	#siteWrap.active{position:fixed;-webkit-transform: translateX(60%);-moz-transform: translateX(60%);transform: translateX(60%);-ms-transform: translateX(60%);-o-transform: translateX(60%);width:100%;float:left;}
+
+	/* Header */
+	header{margin:0 0 20px;}
+		header .gutter{padding:20px;}
+		header #logo {float: left;height: 100px;width: 100px;}
+		header #mainNav, header #social{display:none;}
+
+
+		#menuTrigger{float:right;margin:30px 0 0 0;padding:7px 14px;color:#fff;background:#000;border-radius:2px;text-transform:uppercase;font-weight:bold;}
+
+		#mobileMenu nav#mainNav{float:left;}
+		#mobileMenu nav#mainNav ul{list-style: none;margin: 18px 0px 0px 77px;width:622px;}
+		#mobileMenu nav#mainNav ul li{float: left;width: 138px;margin: 0 104px 9px 0px;}
+			#mobileMenu nav#mainNav ul li.nomargin{margin:0 0 9px;}
+		#mobileMenu nav#mainNav ul li a{display: block;width:132px;border-bottom: 4px solid #000;height:20px;font:16px/16px 'Memphis LT W01 Medium';color:#000;text-decoration:none;padding:4px 0px 0px 6px;}
+			#mobileMenu nav#mainNav ul li.current-menu-item a, #mobileMenu nav#mainNav ul li:hover a{background:#000;color:#fff;}
+			#mobileMenu nav#mainNav ul {list-style: none;margin:0;width:100%;}
+			#mobileMenu nav#mainNav ul li {float: left;width:100%;margin:0;}
+				#mobileMenu nav#mainNav ul li.nomargin{margin:0;}
+			#mobileMenu nav#mainNav ul li a{padding: 4px 6px;width: auto;}
+
+
+	#mobileMenu nav#social{float: left;margin:10px 0 0 0;width: 100%;}
+		#mobileMenu nav#social ul{float:none;margin:0 auto;list-style: none;width:125px;}
+		#mobileMenu nav#social ul li{display:block;height:23px;width:19px;text-decoration:none;text-indent:-9999px;float:left;padding:0 1px 0 0;}
+		#mobileMenu nav#social ul li a{background:url(../img/socialIcons.png) 0 0 no-repeat;height:100%;width:100%;display:block;}
+			#mobileMenu nav#social ul li.facebook a{background-position:0 0;}
+			#mobileMenu nav#social ul li.tumblr a{background-position:-22px 0;}
+			#mobileMenu nav#social ul li.instagram a{background-position:-43px 0;}
+			#mobileMenu nav#social ul li.twitter a{background-position:-64px 0;}
+			#mobileMenu nav#social ul li.google a{background-position:-85px 0;}
+
+
+	/* Home */
+	body.home{background: url(../img/homeBG_mobile.gif) -40px 80px no-repeat #e0e0e0;background-size: cover;min-height:450px;}
+	section#home .container{/*height:750px;background:url(../img/homeBG_mobile.gif) center top no-repeat;/*background-size:cover;*/}
+
+
+	/* Approach */
+	#approach .container > .gutter{padding:0 20px;}
+		#approach #approach-threeCol .onethird.first .gutter,#approach #approach-threeCol .onethird.last .gutter,#approach #approach-threeCol .onethird .gutter{padding:10px 0;}
+
+	/* Services */
+	#services .container > .gutter{padding:0 20px;}
+	.service-wrap{height:auto;display:block;margin:0;}
+	#services-threeCol .service-entry.first,#services-threeCol .service-entry.last,#services-threeCol .service-entry{padding:0 0 40px;width:100%;height:auto;display:block;margin:0 0 30px;}
+
+	/* Work */
+	#works-filter{height:auto;}
+	#works-filter .gutter{padding:0 0px;}
+	#works-filter #complete-works, #works-filter #other-works{width:100%;float:left;padding:5px 10px;}
+	ul#filters{width:100%;}
+		ul#filters li{width:100%;}
+
+	.work-entry{width:100%;margin:0 0 5px;height:140px;}
+		.work-entry-img img{width:auto;height:auto;max-width:230px;}
+	.work-post-intro .work-entry-data-vis .gutter,div.work-entry-data-vis .gutter{padding:15px 10px;}
+	span.work-entry-title {font: 16px/22px 'Memphis LT W01 Medium';margin: 0 0 10px;height: auto;}
+	span.work-entry-medium, span.work-entry-statement{font-size:11px;}
+	.work-post-intro .work-entry-data-add .gutter,.work-entry .work-entry-data-add .gutter{padding:50px 10px 10px;}
+
+	#works.archive .container > .gutter{padding:0 10px;}
+	.work-post-intro .work-entry-data, .work-post-intro .work-entry-intro-extra{width:100%;}
+	.work-post-intro .work-post-intro-extra{float:left;width:100%;}
+	.work-post-intro{height:auto;}
+	div.work-post-intro-extra .gutter{padding:20px 0 0;}
+
+	.work-post-showcase img{margin:0 0 5px;}
+
+	.work-process-data-vis{width:100%;}
+	.work-process-intro-extra{float:left;width:100%;}
+	.work-entry-process-sketch.fullwidth .process-image{width:100%;}
+	#works-archive{display:none;}
+
+
+	/* People */
+	#people #contentPrimary, #people #contentSecondary{width:100%;float:left;}
+	#people .container > .gutter{padding:0 10px;}
+
+	.people-entry{width:100%;margin:0 0 5px;}
+		.people-entry .people-entry-img img{max-width:230px;}
+
+	.people-entry.active{width:100%;max-height:520px;height:auto;}
+		.people-entry.active .people-entry-img{float:left;height:181px;width:100%;}
+			.people-entry.active .people-entry-img img{max-width:100%;}
+		.people-entry.active .people-entry-data,.people-entry.right.active .people-entry-data,.people-entry.left.active .people-entry-data{float:left;height:auto;width:100%;position:relative;right:0;left:0;}
+		.people-entry.active .people-entry-data-add{display:none;}
+		.people-entry.active .people-entry-data-vis{width:100%;}
+
+	.people-entry.right .people-entry-data{position:relative;float:right;width:50%;right:0;}
+	.people-entry.left .people-entry-data{position:relative;float:left;width:50%;left:0;}
+	.people-entry .people-entry-data-add{display:none;}
+	.people-entry .people-entry-data-vis{width:100%;float:left;}
+
+	.people-entry.active.left:hover .people-entry-data{left:0;}
+	.people-entry.active.right:hover .people-entry-data{right:0;}
+
+	.people-entry-posit{display:block;}
+
+	.people-entry span.people-entry-title{margin:0 0 8px;}
+
+
+	/* Advocates */
+	.adv-entry.masn-three{width:100%;}
+	#adv-mason .adv-entry .adv-entry-message{font:18px/26px 'MemphisLTW01-BoldItalic';}
+	#adv-mason .adv-entry .adv-entry-advocate{font:12px/16px 'Memphis LT W01 Medium';}
+	#adv-mason .adv-entry .gutter{padding:20px 30px;}
+
+
+	/* Blog/Play */
+	section#blogroll,section#people{margin:0;}
+	section#blogroll #contentPrimary{float:left;width:100%;}
+	section#blogroll #contentSecondary, section#blogroll.single #contentSecondary{float:left;width:100%;}
+		section#blogroll #contentSecondary .gutter, section#blogroll.single #contentSecondary > .gutter, section#blogroll.single #contentTertiary > .gutter{padding:20px;}
+		section#blogroll #contentSecondary .blog-entry .gutter{padding:0 0;}
+	section#blogroll #contentTertiary, section#blogroll.single #contentTertiary{float:left;width:100%;margin:10px 0 0;}
+		#blogroll #contentTertiary h2{margin:0 0 5px;}
+
+	section#blogroll .blog-entry{width:100%;margin:20px 0;float:left;}
+
+	ul#blog-tax li{float:left;width:50%;}
+	.blog-entry .social-badge{width:25px;}
+	#mobileMenu nav#mainNav ul li a{padding:12px 6px;}
+	#sayHello{display:none;}
+
+
+}
+
+/* Tablet and Standard resolution desktop*/
+@media only screen and (min-width: 561px) and (max-width: 1100px) {
+	/* Common */
+	.container{width:100% !important;}
+
+	/* Header */
+	#sayHello .gutter{padding:0 20px;}
+
+	header{margin:0 0 10px;}
+	header .gutter{padding:10px 20px 0;}
+	header #logo{width:20%;padding:0 3% 0 0;}
+	header nav#mainNav{width:70%;float:left;}
+		header nav#mainNav ul{width:100%;margin:18px 0 0;}
+		header nav#mainNav ul li{width:33%;float:left;margin:0 !important;}
+		header nav#mainNav ul li a{padding:9px 0px 5px 6px;height:auto;width:90%;}
+	header nav#social{width:100%;margin:0;}
+
+	/* Home */
+	section#home .container{/*background:url(../img/homeBG.gif) right top no-repeat;*/}
+
+	/* Approach */
+	#approach > .container > .gutter{padding:0 20px;}
+	#approach #approach-threeCol .onethird .gutter{padding:0 10px;}
+		#approach #approach-threeCol .onethird.first .gutter{padding:0 10px 0 0;}
+		#approach #approach-threeCol .onethird.last .gutter{padding:0 0 0 10px;}
+
+	/* Services */
+	#services .container > .gutter{padding:0 20px;}
+	.service-wrap{display:block;}
+		#services-threeCol  .service-wrap .onethird{width:30%;margin:0 0.5%;}
+			#services-threeCol .service-wrap .onethird.first{width:30%;margin:0 1% 0 0;}
+			#services-threeCol .service-wrap .onethird.last{width:30%;margin:0 0 0 1%;}
+		.service-wrap .service-entry h1{width:100% !important;font-size: 22px;line-height: 28px;height:60px;}
+
+	/* Advocates */
+	.adv-entry.masn-three{width:462px;}
+	#advocates .container{width:934px !important;}
+
+	#adv-mason .adv-entry .adv-entry-message{font:22px/30px 'MemphisLTW01-BoldItalic';}
+	#adv-mason .adv-entry .adv-entry-advocate{font:16px/22px 'Memphis LT W01 Medium';}
+
+	/* People */
+	#people #contentPrimary, #people #contentSecondary{width:100%;float:left;}
+	#people .container > .gutter{padding:0 20px;}
+
+	/* Blog/Play */
+	section#blogroll #contentPrimary{width:24%;}
+	section#blogroll #contentSecondary, section#blogroll.single #contentSecondary{width:75%;margin:0;}
+	section#blogroll.single #contentTertiary{float:right;width:75%;margin:0;}
+
+
+	/* Work */
+	#works-filter{height:auto;}
+	#works-filter .gutter{padding:0;}
+
+	#works-filter #other-works, #works-filter #complete-works{padding: 5px 11px;height: auto;}
+	ul#filters li{padding:5px 21px;}
+	.work-entry{width:48%;margin: 0 1% 20px;}
+	.work-entry-img img{width:100%;height:100%;}
+	.work-post-intro .work-entry-data{width:100%;float:left;}
+	.work-post-intro .work-post-intro-extra{float:left;width:100%;margin:20px 0 0;}
+	#works.archive .container > .workcf{padding:10px;}
+
+}
+
+/* Desktop High Resolution (most are in the standard layout.css) */
+@media only screen and (min-width: 1101px) {
+	#works.featured .container{max-width:1435px;width:auto;}
+}
+@media only screen and (min-width: 561px) and (max-width: 800px) {
+	.work-entry{width:100%;margin: 0 0 10px;}
+}
+@media only screen and (min-width: 561px) and (max-width: 973px) {
+	.people-entry{width:100%;margin:0 0 5px;}
+		.people-entry .people-entry-img img{max-width:230px;}
+
+	.people-entry.active{width:100%;max-height:auto;height:auto;}
+		.people-entry.active .people-entry-img{float:left;height:410px;width:100%;}
+			.people-entry.active .people-entry-img img{max-width:100%;}
+		.people-entry.active .people-entry-data,.people-entry.right.active .people-entry-data,.people-entry.left.active .people-entry-data{float:left;height:auto;width:100%;position:relative;right:0;left:0;}
+		.people-entry.active .people-entry-data-add{display:none;}
+		.people-entry.active .people-entry-data-vis{width:100%;}
+
+	.people-entry.right .people-entry-data{position:relative;float:right;width:50%;right:0;}
+	.people-entry.left .people-entry-data{position:relative;float:left;width:50%;left:0;}
+	.people-entry .people-entry-data-add{display:none;}
+	.people-entry .people-entry-data-vis{width:100%;float:left;}
+
+	.people-entry.active.left:hover .people-entry-data{left:0;}
+	.people-entry.active.right:hover .people-entry-data{right:0;}
+
+	.people-entry-posit{display:block;}
+
+	.people-entry span.people-entry-title{margin:0 0 8px;}
+}
+@media only screen and (min-width: 561px) and (max-width: 948px) {
+	#advocates .container{width:95% !important;}
+	.adv-entry.masn-three{width:100%;}
+	#adv-mason .adv-entry .adv-entry-message{font:18px/26px 'MemphisLTW01-BoldItalic';}
+	#adv-mason .adv-entry .adv-entry-advocate{font:14px/20px 'Memphis LT W01 Medium';}
+
+}
+
+
+
+
+/* iphones are special */
+@media (device-height : 568px)
+   and (device-width : 320px)
+   and (-webkit-min-device-pixel-ratio: 2){
+
+
+	/* Common */
+	.container{width:100% !important;}
+	.mobile{display:block;}
+	.onethird{width:100%;}
+
+
+	/* Typography */
+	#approach #approach-intro, #services #services-intro{font: 26px/32px 'Memphis LT W01 Light';}
+
+	/* Mobile Menu */
+	#scrollControl{height:100%;width:100%;float:left;overflow:hidden;}
+
+	#mobileMenu{width:60%;background:#fff;position:fixed;height:100%;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;-webkit-transform: translateX(-100%);}
+		#mobileMenu .gutter{padding:20px;}
+	#siteWrap{transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+
+
+	#mobileMenu.active{position:fixed;-webkit-transform: translateX(0);}
+	#siteWrap.active{position:fixed;-webkit-transform: translateX(60%);width:100%;float:left;}
+
+	/* Header */
+	header{margin:0 0 20px;}
+		header .gutter{padding:20px;}
+		header #logo {float: left;height: 100px;width: 100px;}
+		header #mainNav, header #social{display:none;}
+
+
+		#menuTrigger{float:right;margin:30px 0 0 0;padding:7px 14px;color:#fff;background:#000;border-radius:2px;text-transform:uppercase;font-weight:bold;}
+
+		#mobileMenu nav#mainNav{float:left;}
+		#mobileMenu nav#mainNav ul{list-style: none;margin: 18px 0px 0px 77px;width:622px;}
+		#mobileMenu nav#mainNav ul li{float: left;width: 138px;margin: 0 104px 9px 0px;}
+			#mobileMenu nav#mainNav ul li.nomargin{margin:0 0 9px;}
+		#mobileMenu nav#mainNav ul li a{display: block;width:132px;border-bottom: 4px solid #000;height:20px;font:16px/16px 'Memphis LT W01 Medium';color:#000;text-decoration:none;padding:4px 0px 0px 6px;}
+			#mobileMenu nav#mainNav ul li.current-menu-item a, #mobileMenu nav#mainNav ul li:hover a{background:#000;color:#fff;}
+			#mobileMenu nav#mainNav ul {list-style: none;margin:0;width:100%;}
+			#mobileMenu nav#mainNav ul li {float: left;width:100%;margin:0;}
+				#mobileMenu nav#mainNav ul li.nomargin{margin:0;}
+			#mobileMenu nav#mainNav ul li a{padding: 4px 6px;width: auto;}
+
+
+	#mobileMenu nav#social{float: left;margin:10px 0 0 0;width: 100%;}
+		#mobileMenu nav#social ul{float:none;margin:0 auto;list-style: none;width:125px;}
+		#mobileMenu nav#social ul li{display:block;height:23px;width:19px;text-decoration:none;text-indent:-9999px;float:left;padding:0 1px 0 0;}
+		#mobileMenu nav#social ul li a{background:url(../img/socialIcons.png) 0 0 no-repeat;height:100%;width:100%;display:block;}
+			#mobileMenu nav#social ul li.facebook a{background-position:0 0;}
+			#mobileMenu nav#social ul li.tumblr a{background-position:-22px 0;}
+			#mobileMenu nav#social ul li.instagram a{background-position:-43px 0;}
+			#mobileMenu nav#social ul li.twitter a{background-position:-64px 0;}
+			#mobileMenu nav#social ul li.google a{background-position:-85px 0;}
+
+
+	/* Home */
+	body.home{background: url(../img/homeBG_mobile.gif) -40px 80px no-repeat #e0e0e0;background-size: cover;min-height:450px;}
+	section#home .container{/*height:750px;background:url(../img/homeBG_mobile.gif) center top no-repeat;/*background-size:cover;*/}
+
+
+	/* Approach */
+	#approach .container > .gutter{padding:0 20px;}
+		#approach #approach-threeCol .onethird.first .gutter,#approach #approach-threeCol .onethird.last .gutter,#approach #approach-threeCol .onethird .gutter{padding:10px 0;}
+
+	/* Services */
+	#services .container > .gutter{padding:0 20px;}
+	.service-wrap{height:auto;display:block;margin:0;}
+	#services-threeCol .service-entry.first,#services-threeCol .service-entry.last,#services-threeCol .service-entry{padding:0 0 40px;width:100%;height:auto;display:block;margin:0 0 30px;}
+
+	/* Work */
+	#works-filter{height:auto;}
+	#works-filter .gutter{padding:0 0px;}
+	#works-filter #complete-works, #works-filter #other-works{width:100%;float:left;padding:5px 10px;}
+	ul#filters{width:100%;}
+		ul#filters li{width:100%;}
+
+	.work-entry{width:100%;margin:0 0 5px;height:140px;}
+		.work-entry-img img{width:auto;height:auto;max-width:230px;}
+	.work-post-intro .work-entry-data-vis .gutter,div.work-entry-data-vis .gutter{padding:15px 10px;}
+	span.work-entry-title{font: 12px/18px 'Memphis LT W01 Medium';margin:0 0 10px;height:41px;}
+	span.work-entry-medium, span.work-entry-statement{font-size:8px;}
+	.work-post-intro .work-entry-data-add .gutter,.work-entry .work-entry-data-add .gutter{padding:50px 10px 10px;}
+
+	#works.archive .container > .gutter{padding:0 10px;}
+	.work-post-intro .work-entry-data, .work-post-intro .work-entry-intro-extra{width:100%;}
+	.work-post-intro .work-post-intro-extra{float:left;width:100%;}
+	.work-post-intro{height:auto;}
+	div.work-post-intro-extra .gutter{padding:20px 0 0;}
+
+	.work-post-showcase img{margin:0 0 5px;}
+
+	.work-process-data-vis{width:100%;}
+	.work-process-intro-extra{float:left;width:100%;}
+	.work-entry-process-sketch.fullwidth .process-image{width:100%;}
+	#works-archive{display:none;}
+
+
+	/* People */
+	#people #contentPrimary, #people #contentSecondary{width:100%;float:left;}
+	#people .container > .gutter{padding:0 10px;}
+
+	.people-entry{width:100%;margin:0 0 5px;}
+		.people-entry .people-entry-img img{max-width:230px;}
+
+	.people-entry.active{width:100%;}
+		.people-entry.active .people-entry-img{float:left;height:181px;width:100%;}
+			.people-entry.active .people-entry-img img{max-width:100%;}
+		.people-entry.active .people-entry-data,.people-entry.right.active .people-entry-data,.people-entry.left.active .people-entry-data{float:left;height:181px;width:100%;position:relative;right:0;left:0;}
+		.people-entry.active .people-entry-data-add{display:none;}
+		.people-entry.active .people-entry-data-vis{width:100%;}
+
+	.people-entry.right .people-entry-data{position:relative;float:right;width:50%;right:0;}
+	.people-entry.left .people-entry-data{position:relative;float:left;width:50%;left:0;}
+	.people-entry .people-entry-data-add{display:none;}
+	.people-entry .people-entry-data-vis{width:100%;float:left;}
+
+	.people-entry.active.left:hover .people-entry-data{left:0;}
+	.people-entry.active.right:hover .people-entry-data{right:0;}
+
+	.people-entry-posit{display:block;}
+
+	.people-entry span.people-entry-title{margin:0 0 8px;}
+
+
+	/* Advocates */
+	.adv-entry.masn-three{width:100%;}
+	#adv-mason .adv-entry .adv-entry-message{font:18px/26px 'MemphisLTW01-BoldItalic';}
+	#adv-mason .adv-entry .adv-entry-advocate{font:12px/16px 'Memphis LT W01 Medium';}
+	#adv-mason .adv-entry .gutter{padding:20px 30px;}
+
+
+	/* Blog/Play */
+	section#blogroll,section#people{margin:0;}
+	section#blogroll #contentPrimary{float:left;width:100%;}
+	section#blogroll #contentSecondary, section#blogroll.single #contentSecondary{float:left;width:100%;}
+		section#blogroll #contentSecondary .gutter, section#blogroll.single #contentSecondary > .gutter, section#blogroll.single #contentTertiary > .gutter{padding:20px;}
+		section#blogroll #contentSecondary .blog-entry .gutter{padding:0 0;}
+	section#blogroll #contentTertiary, section#blogroll.single #contentTertiary{float:left;width:100%;margin:10px 0 0;}
+		#blogroll #contentTertiary h2{margin:0 0 5px;}
+
+	section#blogroll .blog-entry{width:100%;margin:20px 0;float:left;}
+
+	ul#blog-tax li{float:left;width:50%;}
+	.blog-entry .social-badge{width:25px;}
+	#mobileMenu nav#mainNav ul li a{padding:12px 6px;}
+	#sayHello{display:none;}
+}
+@media (device-height : 568px)
+   and (device-width : 320px)
+   and (-webkit-min-device-pixel-ratio: 2)
+   and (orientation:landscape){
+	   #mobileMenu nav#mainNav ul li.nomargin,#mobileMenu nav#mainNav ul li{float:left;width:46%;margin:0 2% 0 0;}
+	   	#mobileMenu nav#mainNav ul li a{padding:12px 6px;}
+
+}
